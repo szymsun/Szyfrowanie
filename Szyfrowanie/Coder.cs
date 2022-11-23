@@ -8,5 +8,14 @@ namespace Szyfrowanie
 {
     public class Coder
     {
+        public string Word;
+
+        public Coder(string _Word, int key)
+        {
+            Word = _Word;
+
+            char[] chars = _Word.ToCharArray();
+
+        }
     }
 }
