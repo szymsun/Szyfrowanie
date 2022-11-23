@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Szyfrowanie
 {
-    internal class CodedLetter
+    public class CodedLetter
     {
         public char Letter;
         public int LetterIndex;
         public CodedLetter(char _Letter, int _LetterIndex)
         {
-
+            Letter = _Letter;
+            LetterIndex = _LetterIndex;
         }
     }
 }
